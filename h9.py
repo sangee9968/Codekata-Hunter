@@ -8,5 +8,6 @@ for i in range(0,len(l)):
       break
     elif l[i]<0 or l[i]<0:
       if l[i]+l[j]==-1 or l[i]+l[j]==1:
+        #result
         print(l[i],l[j])  
         break
