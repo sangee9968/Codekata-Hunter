@@ -8,6 +8,6 @@ s=str(sum)
 a=s[::-1]
 if s==a:
   #result
-	print("yes")
+	print("YES")
 else:
-	print("no")
+	print("NO")
