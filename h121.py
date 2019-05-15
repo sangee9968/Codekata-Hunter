@@ -1,14 +1,12 @@
 s=input()
 l=[]
-l1=[]
 for i in range(0,len(s)+1):
 	for j in range(i+1,len(s)+1):
-		l.append(s[i:j])		
-for i in l:
-	if i[::-1]==i:
-		l1.append([i,len(i)])
-for i in range(0,len(l1)):		
-	 l1.sort(key = lambda x: x[1],reverse=True) 
-#result   
-print(l1[0][0])	
+		k=s[i:j]
+		if k==k[::-1]:
+			l.append(k)
+g=[]
+for i in range(0,len(l)):
+	g.append(len(l[i]))
+print(l[g.index(max(g))])
 	
