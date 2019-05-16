@@ -6,5 +6,6 @@ for i in range(0,len(l)):
 		for k in range(j+1,len(l)):
 			if l[i]+l[j]==l[k]:
 				l1.append(l[k])
+				#result
 				print(l[i],l[j],l[k])
-				
+				break
