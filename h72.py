@@ -1,5 +1,7 @@
 #input
 s=input()
+if s[-1]==".":
+	s=s[:-1]
 l=list(s.split())
 m=[]
 for i in range(len(l)):
