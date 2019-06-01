@@ -7,6 +7,6 @@ for i in range(n):
    l1.append(l)
 for i in range(n):
     for j in range(n):
-        if i==j:
+         if (i+j)==(n-1):
             c=c+l1[i][j]
 print(c)
